@@ -7,9 +7,10 @@ namespace Currency_Converter
     {
         static void Main(string[] args)
         {
+            try
+            {
             decimal GivenCurrency = 20, ProductPrice = 5.5m;
             decimal price = (GivenCurrency - ProductPrice);
-            
             CurChange change = new CurChange(price);
             Console.WriteLine("Given changes are given below:");
             Console.WriteLine($"Fifty Pound : {change.FiftyPound}");
@@ -20,6 +21,12 @@ namespace Currency_Converter
             Console.WriteLine($"One Pound: {change.OnePound}");
             Console.WriteLine($"Fify Pence: {change.FifyPence}");
             Console.Read();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex.InnerException;
+            }
         }
     }
 
