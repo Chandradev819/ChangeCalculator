@@ -24,7 +24,6 @@ namespace Currency_Converter
             }
             catch (Exception ex)
             {
-
                 throw ex.InnerException;
             }
         }
