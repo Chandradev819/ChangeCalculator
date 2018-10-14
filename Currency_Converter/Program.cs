@@ -9,8 +9,8 @@ namespace Currency_Converter
         {
             try
             {
-            decimal GivenCurrency = 20, ProductPrice = 5.5m;
-            decimal price = (GivenCurrency - ProductPrice);
+            decimal givenCurrency = 20, productPrice = 5.5m;
+            decimal price = (givenCurrency - productPrice);
             CurChange change = new CurChange(price);
             Console.WriteLine("Given changes are given below:");
             Console.WriteLine($"Fifty Pound : {change.FiftyPound}");
