@@ -10,6 +10,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestCurrencyReturnMethod()
         {
+            //This is the example of test case.
             decimal givenCurrency = 20, productPrice = 10;
             decimal price = (givenCurrency - productPrice);
             int exceptedTenPound = 1;
