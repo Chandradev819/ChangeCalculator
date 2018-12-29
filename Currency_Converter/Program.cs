@@ -9,6 +9,7 @@ namespace Currency_Converter
         {
             try
             {
+                // Calculation part
             decimal givenCurrency = 20, productPrice = 5.5m;
             decimal price = (givenCurrency - productPrice);
             CurChange change = new CurChange(price);
