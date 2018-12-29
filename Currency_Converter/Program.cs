@@ -18,9 +18,10 @@ namespace Currency_Converter
             Console.WriteLine($"Twenty Dollar Bills: {change.TwentyPound}");
             Console.WriteLine($"Ten Pound : {change.TenPound}");
             Console.WriteLine($"Five Pound : {change.FivePound}");
-            Console.WriteLine($"Two Pound: {change.TwoPound}");
+           // Console.WriteLine($"Two Pound: {change.TwoPound}");
             Console.WriteLine($"One Pound: {change.OnePound}");
-            Console.WriteLine($"Fify Pence: {change.FifyPence}");
+             Console.WriteLine($"One Pound: {change.OnePound}");
+                Console.WriteLine($"Fify Pence: {change.FifyPence}");
             Console.Read();
             }
             catch (Exception ex)
